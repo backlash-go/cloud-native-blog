@@ -2,6 +2,21 @@
 
 yarn docs:dev# cloud-native-blog
 
+阅读 Kubernetes 部分源码（client-go、Scheme 注册、API 版本与转换机制、核心资源对象体系设计、API Server 架构），理解其核心实现原理
+熟悉 Kubernetes 各组件交互链路，理解控制面协作机制及资源请求与数据流转过程
+理解 API Server 请求链路（认证、授权、Admission）及资源到 etcd 的数据持久化流程
+熟悉 Informer 机制与控制器模式（事件驱动）源码实现，熟练使用 client-go，具备 CRD / Operator 开发能力
+深入理解容器运行原理（Namespace / Cgroups / OverlayFS）
+熟悉 Linux 操作系统，掌握常用命令及 shell 脚本编写，熟练使用 grep / awk / sed 等工具进行问题排查，具备系统参数调优与性能分析、故障定位能力
+熟悉 Go 语言开发，掌握常见数据结构与算法，了解常见设计模式，掌握项目结构规范与代码组织方式，熟悉 Gin 框架，具备工程化实践能力
+具备 CI/CD 实践经验，参与自动化构建与部署流程设计，熟悉持续集成与交付链路
+具备可观测性体系实践经验，理解监控、日志与链路追踪三大支柱架构，熟悉 Prometheus、Grafana、Elasticsearch、Jaeger 及 OpenTelemetry 技术体系与落地实践
+熟悉 常见的中间件Nginx、ES、MySQL等，具备数据库索引优化、SQL 调优及性能问题排查能力
+了解人工智能基础原理及基本流程，对模型训练、推理及常见应用场景有基础认知
+
+
+
+
 
 项目 一：企业统一身份认证平台（SSO 单点登录系统）
 
